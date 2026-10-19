@@ -64,6 +64,13 @@
       "when": 1792382612839,
       "tag": "0008_review_photos",
       "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1792383756857,
+      "tag": "0009_apply_store",
+      "breakpoints": true
     }
   ]
 }

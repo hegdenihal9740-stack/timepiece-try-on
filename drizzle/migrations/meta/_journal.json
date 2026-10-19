@@ -71,6 +71,13 @@
       "when": 1792383756857,
       "tag": "0009_apply_store",
       "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1792383974693,
+      "tag": "0010_profile_details",
+      "breakpoints": true
     }
   ]
 }

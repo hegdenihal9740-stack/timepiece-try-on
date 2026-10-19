@@ -124,19 +124,49 @@ export type Database = {
       }
       profiles: {
         Row: {
+          address_line: string
+          address_type: string
+          birth_date: string | null
+          city: string
           created_at: string
           display_name: string
+          gender: string
           id: string
+          landmark: string
+          locality: string
+          phone: string
+          pincode: string
+          state: string
         }
         Insert: {
+          address_line?: string
+          address_type?: string
+          birth_date?: string | null
+          city?: string
           created_at?: string
           display_name?: string
+          gender?: string
           id: string
+          landmark?: string
+          locality?: string
+          phone?: string
+          pincode?: string
+          state?: string
         }
         Update: {
+          address_line?: string
+          address_type?: string
+          birth_date?: string | null
+          city?: string
           created_at?: string
           display_name?: string
+          gender?: string
           id?: string
+          landmark?: string
+          locality?: string
+          phone?: string
+          pincode?: string
+          state?: string
         }
         Relationships: []
       }
